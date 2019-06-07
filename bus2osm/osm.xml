@@ -1,0 +1,86 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' generator='JOSM'>
+	<node id='-60' timestamp='2010-11-06T22:16:14Z' visible='true' lat='31.2520656585693' lon='34.7888603210449' />
+	<node id='-58' timestamp='2010-11-06T22:16:14Z' visible='true' lat='31.2392139434814' lon='34.7915840148926' />
+	<node id='-56' timestamp='2010-11-06T22:16:14Z' visible='true' lat='31.2468741490291' lon='34.8152437943679' />
+	<node id='-54' timestamp='2010-11-06T22:16:14Z' visible='true' lat='31.2479267120361' lon='34.7937812805176' />
+	<node id='-52' timestamp='2010-11-06T22:16:14Z' visible='true' lat='31.2478427886963' lon='34.7907257080078' />
+	<node id='-50' timestamp='2010-11-06T22:16:14Z' visible='true' lat='31.2482986450196' lon='34.7924652099609' />
+	<node id='-48' timestamp='2010-11-06T22:16:14Z' visible='true' lat='31.247386932373' lon='34.7889862060547' />
+	<node id='-46' timestamp='2010-11-06T22:16:14Z' visible='true' lat='31.2470588684082' lon='34.7850723266602' />
+	<node id='-44' timestamp='2010-11-06T22:16:14Z' visible='true' lat='31.2487773895264' lon='34.7808113098145' />
+	<node id='-42' timestamp='2010-11-06T22:16:14Z' visible='true' lat='31.2471370697022' lon='34.7856445312501' />
+	<node id='-40' timestamp='2010-11-06T22:16:14Z' visible='true' lat='31.2504177093506' lon='34.7759780883789' />
+	<node id='-38' timestamp='2010-11-06T22:16:14Z' visible='true' lat='31.253023147583' lon='34.7725639343262' />
+	<node id='-36' action='modify' timestamp='2010-11-06T22:16:14Z' visible='true' lat='31.4503383636475' lon='34.5733604431152'>
+		<tag k='fixme' v='find exact place' />
+		<tag k='fixme' v='find exact place' />
+		<tag k='fixme' v='find exact place' />
+	</node>
+	<node id='-34' timestamp='2010-11-06T22:16:14Z' visible='true' lat='31.3319492340088' lon='34.6928825378418' />
+	<node id='-32' timestamp='2010-11-06T22:16:14Z' visible='true' lat='31.2135601043701' lon='34.8124046325684' />
+	<node id='-30' timestamp='2010-11-06T22:16:14Z' visible='true' lat='31.2558460235596' lon='34.7672805786133' />
+	<node id='-28' timestamp='2010-11-06T22:16:14Z' visible='true' lat='31.2585430145264' lon='34.7621650695801' />
+	<node id='-26' timestamp='2010-11-06T22:16:14Z' visible='true' lat='31.2531490325928' lon='34.7723960876465' />
+	<node id='-24' timestamp='2010-11-06T22:16:14Z' visible='true' lat='31.2558059692383' lon='34.7685890197754' />
+	<node id='-22' timestamp='2010-11-06T22:16:14Z' visible='true' lat='31.2504920959473' lon='34.7762031555176' />
+	<node id='-20' timestamp='2010-11-06T22:16:14Z' visible='true' lat='31.2539253234864' lon='34.767333984375' />
+	<node id='-18' timestamp='2010-11-06T22:16:14Z' visible='true' lat='31.2470588684082' lon='34.7850723266602' />
+	<node id='-16' timestamp='2010-11-06T22:16:14Z' visible='true' lat='31.424337387086' lon='34.6022071838402' />
+	<node id='-14' timestamp='2010-11-06T22:16:14Z' visible='true' lat='31.3876590728768' lon='34.6400413513202' />
+	<node id='-12' timestamp='2010-11-06T22:16:14Z' visible='true' lat='31.3509807586676' lon='34.6778755188002' />
+	<node id='-10' timestamp='2010-11-06T22:16:14Z' visible='true' lat='31.3143024444584' lon='34.7157096862802' />
+	<node id='-8' timestamp='2010-11-06T22:16:14Z' visible='true' lat='31.2776241302492' lon='34.7535438537602' />
+	<node id='-6' timestamp='2010-11-06T22:16:14Z' visible='true' lat='31.24094581604' lon='34.7913780212402' />
+	<node id='-4' timestamp='2010-11-06T22:16:14Z' visible='true' lat='31.240885' lon='34.79539' />
+	<node id='-2' timestamp='2010-11-06T22:16:14Z' visible='true' lat='31.24277' lon='34.797315' />
+	<relation id='-64' timestamp='2010-11-06T22:16:14Z' visible='true'>
+		<member type='node' ref='-32' role='backward' />
+		<member type='node' ref='-32' role='backward' />
+		<member type='node' ref='-34' role='backward' />
+		<member type='node' ref='-36' role='backward' />
+		<member type='node' ref='-38' role='backward' />
+		<member type='node' ref='-40' role='backward' />
+		<member type='node' ref='-42' role='backward' />
+		<member type='node' ref='-44' role='backward' />
+		<member type='node' ref='-46' role='backward' />
+		<member type='node' ref='-48' role='backward' />
+		<member type='node' ref='-50' role='backward' />
+		<member type='node' ref='-52' role='backward' />
+		<member type='node' ref='-54' role='backward' />
+		<member type='node' ref='-10' role='backward' />
+		<member type='node' ref='-2' role='backward' />
+		<member type='node' ref='-56' role='backward' />
+		<member type='node' ref='-58' role='backward' />
+		<member type='node' ref='-2' role='backward' />
+		<member type='node' ref='-60' role='backward' />
+		<tag k='name' v='ב&quot;ש - שרת (קניון שאול המלך שכונה יא) - ב&quot;ש - דרך המשחררים 48 (שכונה א)' />
+		<tag k='operator' v='מטרודן' />
+		<tag k='ref' v='מסלול קו 9 (מטרודן)' />
+		<tag k='route' v='bus' />
+		<tag k='type' v='route' />
+	</relation>
+	<relation id='-62' timestamp='2010-11-06T22:16:14Z' visible='true'>
+		<member type='node' ref='-2' role='forward' />
+		<member type='node' ref='-4' role='forward' />
+		<member type='node' ref='-6' role='forward' />
+		<member type='node' ref='-8' role='forward' />
+		<member type='node' ref='-10' role='forward' />
+		<member type='node' ref='-12' role='forward' />
+		<member type='node' ref='-14' role='forward' />
+		<member type='node' ref='-16' role='forward' />
+		<member type='node' ref='-18' role='forward' />
+		<member type='node' ref='-20' role='forward' />
+		<member type='node' ref='-22' role='forward' />
+		<member type='node' ref='-24' role='forward' />
+		<member type='node' ref='-26' role='forward' />
+		<member type='node' ref='-28' role='forward' />
+		<member type='node' ref='-30' role='forward' />
+		<member type='node' ref='-32' role='forward' />
+		<tag k='name' v='ב&quot;ש - ת. מרכזית - ב&quot;ש - שרת (קניון שאול המלך שכונה יא)' />
+		<tag k='operator' v='מטרודן' />
+		<tag k='ref' v='מסלול קו 9 (מטרודן)' />
+		<tag k='route' v='bus' />
+		<tag k='type' v='route' />
+	</relation>
+</osm>

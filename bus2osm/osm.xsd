@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="osm">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element maxOccurs="unbounded" name="node">
+					<xs:complexType>
+						<xs:sequence minOccurs="0" maxOccurs="unbounded">
+							<xs:element name="tag">
+								<xs:complexType>
+									<xs:attribute name="k" type="xs:string" use="required" />
+									<xs:attribute name="v" type="xs:string" use="required" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute name="id" type="xs:int" use="required" />
+						<xs:attribute name="timestamp" type="xs:dateTime" use="required" />
+						<xs:attribute name="visible" type="xs:boolean" use="required" />
+						<xs:attribute name="lat" type="xs:decimal" use="required" />
+						<xs:attribute name="lon" type="xs:decimal" use="required" />
+						<xs:attribute name="action" type="xs:string" use="optional" />
+					</xs:complexType>
+				</xs:element>
+				<xs:element maxOccurs="unbounded" name="relation">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element maxOccurs="unbounded" name="member">
+								<xs:complexType>
+									<xs:attribute name="type" type="xs:string" use="required" />
+									<xs:attribute name="ref" type="xs:string" use="required" />
+									<xs:attribute name="role" use="required" >
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:enumeration value="stop" />
+												<xs:enumeration value="forward_stop" />
+												<xs:enumeration value="backward_stop" />
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+								</xs:complexType>
+							</xs:element>
+							<xs:element maxOccurs="unbounded" name="tag">
+								<xs:complexType>
+									<xs:attribute name="k" type="xs:string" use="required" />
+									<xs:attribute name="v" type="xs:string" use="required" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute name="id" type="xs:int" use="required" />
+						<xs:attribute name="timestamp" type="xs:dateTime" use="required" />
+						<xs:attribute name="visible" type="xs:boolean" use="required" />
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute name="version" type="xs:decimal" use="required" />
+			<xs:attribute name="generator" type="xs:string" use="required" />
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

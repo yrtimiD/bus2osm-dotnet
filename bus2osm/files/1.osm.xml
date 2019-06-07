@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' generator='JOSM'>
+  <node id='-39' visible='true' lat='31.251736335587744' lon='34.77891976737284' />
+  <node id='-38' visible='true' lat='31.251357433526984' lon='34.77915813416267' />
+  <relation id='-42' visible='true'>
+    <member type='node' ref='-38' role='stop_1' />
+    <member type='node' ref='-39' role='stop_2' />
+    <tag k='type' v='route' />
+    <tag k='route' v='bus' />
+    <tag k='ref' v='9' />
+    <tag k='name' v='lalala' />
+    <tag k='operator' v='metrodan' />
+  </relation>
+</osm>
